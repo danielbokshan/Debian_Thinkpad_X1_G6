@@ -1,4 +1,6 @@
 # My Debian Thinkpad X1 Carbon Config
+## Purpose of This Document
+I'm putting this all here so I can recreate this setup if necessary, including Debian-specific instructions for which I could only find guides on Ubuntu/Arch. Debian is my Linux Distribution of choice because I find that it provides the best mix of DIY and Presets. It also doesn't have Snap installed and baked in by default. 
 
 # System Info
 This is a Thinkpad X1 Carbon Gen 6 from 2018 with 8GB ram and the core i5 processor.
@@ -11,7 +13,18 @@ ThinkPad X1 Carbon 6th
 $ uname -a | cut -d ' ' -f 3
 6.1.0-17-amd64
 ```
-
+```
+$ cat /etc/*-release
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+```
 ```
 $ lspci
 00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers (rev 08)
@@ -141,7 +154,7 @@ I'm using Gnome as my DE, with some tweaks to make it better :)
 - User Themes
 - Removable Drive Menu
 
-## Startup Sound
+### Startup Sound
 - Download the sound you want as your startup sound in the form of a .ogg
     - I used Audacity to export as .ogg
 - Install mpv media player
@@ -154,3 +167,10 @@ exit
 ```
 - Add the script to the Gnome Launchpad as a program using this tutorial: [https://askubuntu.com/questions/141229/how-to-add-a-shell-script-to-launcher-as-shortcut](https://askubuntu.com/questions/141229/how-to-add-a-shell-script-to-launcher-as-shortcut)
 - Set the program up under "Startup Apps" within Gnome Tweaks.
+
+### Spicetify
+- Link: [https://spicetify.app/](https://spicetify.app/)
+- Theme: Sleek / Cherry
+
+### Terminal/VSCode
+- Theme: Gruvbox Dark Medium
