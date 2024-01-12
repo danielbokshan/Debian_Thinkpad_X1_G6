@@ -135,8 +135,8 @@ I'm using Gnome as my DE, with some tweaks to make it better :)
 - Hide Activities Button
 - Transparent Top Bar (Adjustable Transparency)
 - Vitals
-- 
-### Build-In:
+
+### Built-In:
 - Dash to Dock
 - User Themes
 - Removable Drive Menu
