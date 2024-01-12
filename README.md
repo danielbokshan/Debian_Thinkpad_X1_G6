@@ -119,6 +119,10 @@ $ sudo apt-get update
 ```
 $ sudo apt install open-fprintd fprintd-clients python3-validity
 ```
+- Update PAM Module to tell OS to accept fingerprint as auth
+```
+$ sudo pam-auth-update
+```
 
 - Enroll fingerprints
 ```$ fprintd-enroll```
