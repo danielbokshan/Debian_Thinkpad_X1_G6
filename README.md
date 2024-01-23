@@ -142,6 +142,9 @@ WantedBy=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibern
 
 ```
 
+# Syncthing
+I use Syncthing to sync files between multiple devices as part of my study workflow for school. [https://apt.syncthing.net](https://apt.syncthing.net)
+
 # My Desktop Environment
 I'm using Gnome as my DE, with some tweaks to make it better :)
 
