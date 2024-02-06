@@ -141,10 +141,6 @@ ExecStart=systemctl restart open-fprintd.service python3-validity.service
 WantedBy=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
 
 ```
-
-# Syncthing
-I use Syncthing to sync files between multiple devices as part of my study workflow for school. [https://apt.syncthing.net](https://apt.syncthing.net)
-
 # My Desktop Environment
 I'm using Gnome as my DE, with some tweaks to make it better :)
 
@@ -173,7 +169,7 @@ mpv --no-video /home/daniel/Music/RunForTheHills.ogg
 exit
 ```
 - Add the script to the Gnome Launchpad as a program using this tutorial: [https://askubuntu.com/questions/141229/how-to-add-a-shell-script-to-launcher-as-shortcut](https://askubuntu.com/questions/141229/how-to-add-a-shell-script-to-launcher-as-shortcut)
-- Set the program up under "Startup Apps" within Gnome Tweaks.
+- Set the program up under "Startup Apps" within Gnome Tweaks app.
 
 ### Spicetify
 - Link: [https://spicetify.app/](https://spicetify.app/)
