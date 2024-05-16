@@ -149,11 +149,11 @@ I'm using Gnome as my DE, with some tweaks to make it better :)
 ### From extensions.gnome.org:
 - Control Blur Effect on Lock Screen
 - Hide Activities Button
-- Transparent Top Bar (Adjustable Transparency)
-- Vitals
+- Transparent Top Bar (Adjustable Transparency) - opaque bar when a window touches it
+- Vitals (showing fan RPM, CPU %, CPU Temp, RAM usage, and battery time estimate)
 
 ### Built-In:
-- Dash to Dock
+- Dash to Dock (left side, shrink the dash, dynamic opacity)
 - User Themes
 - Removable Drive Menu
 
