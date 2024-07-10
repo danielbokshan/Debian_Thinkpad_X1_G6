@@ -107,7 +107,7 @@ Yes, I know that the source points to a branch for Ubuntu but it works fine on D
 I have also uploaded the entire file to this repo.
 ```
 # python-validity
-deb [trusted=yes] http://ppa.launchpad.net/uunicorn/open-fprintf/ubuntu jammy main
+deb [trusted=yes] http://ppa.launchpad.net/uunicorn/open-fprintd/ubuntu jammy main
 ```
 
 - Update sources
